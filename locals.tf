@@ -1,3 +1,3 @@
 locals {
-  policy_name = {for policy in var.servar.service_endpoint_policy_list : policy.name => policy }
+  policy_name = {for policy in var.service_endpoint_policy_list : policy.name => policy }
 }
