@@ -10,7 +10,7 @@ resource "azurerm_subnet_service_endpoint_storage_policy" "service_endpoints" {
     name              = definition.value.name
     description       = definition.value.description
     service           = definition.value.service
-    service_resources = defination.value.service_resources
+    service_resources = definition.value.service_resources
     } 
   }
 }
