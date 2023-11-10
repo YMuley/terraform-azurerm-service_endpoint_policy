@@ -11,3 +11,7 @@ variable "resource_group_output" {
   
 }
 
+variable "storage_account_output" {
+  type = map(any)
+  default = {}
+}
